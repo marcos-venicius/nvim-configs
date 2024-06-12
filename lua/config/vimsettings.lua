@@ -1,3 +1,9 @@
+vim.cmd[[
+  autocmd FileType cs set tabstop=4
+  autocmd FileType cs set shiftwidth=4
+  autocmd FileType cs set softtabstop=4
+]]
+
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.g.loaded_netrw = 1
@@ -21,3 +27,4 @@ vim.o.shiftwidth = 2
 vim.o.softtabstop = 2
 vim.o.expandtab = true
 vim.o.wrap = false
+
