@@ -1,5 +1,5 @@
 return {
-  {
+  --[[ {
     'doums/darcula',
     opts = {
       transparent = true
@@ -7,5 +7,5 @@ return {
     config = function ()
       vim.cmd.colorscheme("darcula")
     end
-  }
+  } ]]
 }
