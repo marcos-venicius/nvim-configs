@@ -1,5 +1,13 @@
 # Nvim configs
 
-Just clone this at folder `~/.configs/nvim` on your computer.
+- LSP
+- Auto Completion
+- Rose Pine theme
+- Fuzzy Find
+- File Manager
+- Tree Sitter
 
-If you want the transparent effect, after run this and install everything type `:TransparentEnable` and that's it.
+```bash
+mkdir -p ~/.config/nvim && git clone https://github.com/marcos-venicius/nvim-configs ~/.config/nvim
+```
+
