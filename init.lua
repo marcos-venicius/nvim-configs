@@ -2,4 +2,5 @@ require("config.lazy")
 require("config.vimsettings")
 require("config.lspconfig")
 require("config.autocompletion")
-
+require("config.prettier")
+require("config.null_ls")
