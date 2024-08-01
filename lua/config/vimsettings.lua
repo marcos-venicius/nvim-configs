@@ -1,5 +1,4 @@
-vim.wo.signcolumn = 'yes'
-vim.o.autochdir=true
+vim.wo.signcolumn='yes'
 vim.o.expandtab=true
 vim.o.wildmenu=true
 vim.o.hlsearch=true
