@@ -1,6 +1,6 @@
 return {
   {
-    'AlexvZyl/nordic.nvim',
+    'Mofiqul/vscode.nvim',
     lazy = false,
     priority = 1000
   }

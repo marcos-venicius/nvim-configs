@@ -1,17 +1,9 @@
-require 'nordic'.setup {
-  bold_keywords = true,
-  cursorline = {
-    bold = false,
-    bold_number = false,
-    theme = 'dark',
-    blend = 0.85
-  },
-  bright_border = false,
-  italic_comments = true,
-  swap_backgrounds = true,
-  telescope = {
-    style = 'classic'
-  }
-}
+require('vscode').setup({
+    style = 'dark',
+    transparent = false,
+    italic_comments = true,
+    underline_links = true,
+    disable_nvimtree_bg = true,
+})
 
-require 'nordic'.load()
+vim.cmd.colorscheme "vscode"
