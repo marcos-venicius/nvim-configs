@@ -9,7 +9,7 @@ function ChooseRandomTheme()
 
   local randomTheme = themes[randomIndex]
 
-  print("Using theme " .. randomTheme)
+  print("Using " .. randomTheme .. " theme")
 
   vim.cmd.colorscheme(randomTheme)
 end
