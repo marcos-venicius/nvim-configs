@@ -8,6 +8,11 @@
 - File Manager
 - Tree Sitter
 - Prettier
+- Comment
+- Git Signs
+- Random themes (vscode, papercolor)
+
+## Installing
 
 ```bash
 mkdir -p ~/.config/nvim && git clone https://github.com/marcos-venicius/nvim-configs ~/.config/nvim
@@ -47,3 +52,10 @@ And, after this, configuring it to git:
 git config --global core.excludesFile ~/.gitignore
 ```
 
+## Selecting random theme by hand
+
+Everytime you open your nvim a random theme will be selected, but if you want to randomize it again:
+
+```
+:lua ChooseRandomTheme
+```
