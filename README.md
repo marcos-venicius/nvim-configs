@@ -61,5 +61,5 @@ git config --global core.excludesFile ~/.gitignore
 Everytime you open your nvim a random theme will be selected, but if you want to randomize it again:
 
 ```
-:lua ChooseRandomTheme
+:RandomTheme
 ```
