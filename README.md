@@ -12,6 +12,10 @@
 - Git Signs
 - Random themes (vscode, papercolor)
 
+![image](https://github.com/user-attachments/assets/ec8c4d12-ef15-40c2-98eb-0d9258be8516)
+![image](https://github.com/user-attachments/assets/559aca72-3380-4dab-8539-b3c32677b3d6)
+
+
 ## Installing
 
 ```bash
