@@ -9,6 +9,9 @@ return {
 
       'folke/neodev.nvim',
     },
+    config = function()
+      require("config.lspconfig")
+    end
   },
 }
 

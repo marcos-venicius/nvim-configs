@@ -7,5 +7,8 @@ return {
       'hrsh7th/cmp-nvim-lsp',
       'rafamadriz/friendly-snippets',
     },
+    config = function()
+      require("config.autocompletion")
+    end
   },
 }
