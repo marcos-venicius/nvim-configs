@@ -1,6 +1,7 @@
 # Nvim configs
 
 - LSP
+- Eslint
 - Multi Cursors
 - Auto Completion
 - Rose Pine theme
