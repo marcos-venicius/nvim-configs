@@ -5,11 +5,6 @@ return {
     priority = 1000
   },
   {
-    'NLKNguyen/papercolor-theme',
-    lazy = false,
-    priority = 1000
-  },
-  {
     "rose-pine/neovim",
     name = "rose-pine",
     lazy = false,

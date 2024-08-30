@@ -6,7 +6,6 @@ return {
     config = function()
       require("tms").setup({
         "vscode",
-        "PaperColor",
         "rose-pine",
         "catppuccin",
         "catppuccin-frappe",
