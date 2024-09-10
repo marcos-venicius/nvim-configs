@@ -15,5 +15,11 @@ return {
     name = "catppuccin",
     lazy = false,
     priority = 1000
+  },
+  {
+    "rebelot/kanagawa.nvim",
+    name = "kanagawa",
+    lazy = false,
+    priority = 1000
   }
 }

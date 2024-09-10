@@ -5,11 +5,9 @@ return {
     dependencies = { 'nvim-lua/plenary.nvim' },
     config = function()
       require("tms").setup({
+        "kanagawa",
         "vscode",
         "rose-pine",
-        "catppuccin",
-        "catppuccin-frappe",
-        "catppuccin-macchiato",
         "catppuccin-mocha"
       })
     end

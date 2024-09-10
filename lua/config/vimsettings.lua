@@ -26,3 +26,6 @@ vim.o.lazyredraw=true
 vim.o.magic=true
 vim.o.showmatch=true
 vim.opt.background='dark'
+vim.g.editorconfig = true
+vim.opt.fileformat = 'unix'
+
