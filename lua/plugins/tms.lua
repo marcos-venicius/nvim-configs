@@ -6,9 +6,10 @@ return {
     config = function()
       require("tms").setup({
         "kanagawa",
-        "vscode",
+        "kanagawa-dragon"
+        --[[ "vscode",
         "rose-pine",
-        "catppuccin-mocha"
+        "catppuccin-mocha" ]]
       })
     end
   }
