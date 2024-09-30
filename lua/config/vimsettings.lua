@@ -28,4 +28,3 @@ vim.o.showmatch=true
 vim.opt.background='dark'
 vim.g.editorconfig = true
 vim.opt.fileformat = 'unix'
-
