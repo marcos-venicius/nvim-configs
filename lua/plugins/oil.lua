@@ -53,5 +53,6 @@ return {
 		})
 
 		vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open oil file manager" })
+		vim.keymap.set("n", "<leader>-", require('oil').toggle_float, { desc = "Open oil file manager" })
 	end
 }
